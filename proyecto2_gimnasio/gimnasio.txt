@@ -1,0 +1,28 @@
+El gimnasio "Sculptor Gym" nos ha pedido un programa que guarde a sus clientes que entran al gimnasio
+y perminirles el acceso si todavia tienen la mensualidad.
+
+Requerimientos:
+1. Agregar nuevos estudiantes
+
+ .agregar tipo de inscripción:
+   - MENSUAL: al pasar un mes se acabe la suscripció y no se permita el acceso
+
+   -DIARIO: que solo dure un día
+
+2. Agregar nombre y tarjeta de identidad, patologias y que objetivo quiere
+
+NOTA: debe haber una opción de permiso de entrada donde se ponga True sí todavia
+tiene permiso de entrar y false sí no.
+
+* Consultar la información del cliente:
+1. nombre
+2. identidad
+3. objetivo
+4. patologias
+5. Tipo de inscripción
+6. Fecha en la que se acaba su suscripción
+7. Permiso de entrada (True/False)
+
+* Eliminar clientes por su identidad.
+
+Nota: se debe guardar la información de los clientes en archivo .pickle
